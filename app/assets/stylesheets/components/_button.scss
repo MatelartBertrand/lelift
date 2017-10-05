@@ -5,6 +5,8 @@
   padding: 15px 25px;
   margin: 10px 10px;
   transition: all 180ms ease;
+  border-radius: 3px;
+  min-width: 300px;
 }
 
 .btn-red:hover {
@@ -28,13 +30,15 @@
 
 
 .btn-white {
-  background-color: $light-gray;
+  background-color: white;
   color: $gray;
   font-weight: bold;
-
+  border-radius: 3px;
   padding: 15px 25px;
   margin: 10px 10px;
   transition: all 180ms ease;
+  border-color: $light-gray;
+  min-width: 300px;
 }
 
 .btn-white:hover {

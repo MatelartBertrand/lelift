@@ -1,3 +1,75 @@
+.navbar-lelift {
+  transition: all 0.3s ease;
+  height: 100px;
+  padding: 0px 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-lelift a {
+  margin: 10px 15px;
+  text-decoration: none;
+  color: $dark-gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.navbar-lelift a:hover {
+  text-decoration: underline
+}
+
+
+.navbar-lelift img {
+  height: 50px;
+}
+
+.navbar-lelift-mobil {
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left-mobil {
+  padding: 0px 30px;
+}
+
+
+.navbar-right-mobil {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Main navbar */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
@@ -5,15 +77,13 @@
   transition: all 0.3s ease;
   height: 70px;
   padding: 0px 30px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
-}
 
 /* User Avatar */
 .navbar-wagon .avatar {

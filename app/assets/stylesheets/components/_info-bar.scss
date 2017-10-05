@@ -1,0 +1,21 @@
+.info-bar {
+  background-color: $red;
+  min-height: 40px;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-bar a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+
+.info-bar p {
+  color: white;
+}
+
