@@ -1,0 +1,43 @@
+.btn-red {
+  background-color: $red;
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
+  margin: 10px 10px;
+  transition: all 180ms ease;
+}
+
+.btn-red:hover {
+  color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.btn-red-border {
+  border-color: $red;
+  background-color: none;
+  color: $red;
+  padding: 10px 20px;
+  margin-right: 10px;
+  transition: all 180ms ease;
+}
+
+.btn-red-border:hover {
+  color: white;
+  background-color: $red;
+}
+
+
+.btn-white {
+  background-color: $light-gray;
+  color: $gray;
+  font-weight: bold;
+
+  padding: 15px 25px;
+  margin: 10px 10px;
+  transition: all 180ms ease;
+}
+
+.btn-white:hover {
+  color: $red;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
