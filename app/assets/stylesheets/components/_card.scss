@@ -1,11 +1,13 @@
 .card {
   display: inline-block;
   vertical-align: top;
+  border-radius: 3px;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 30px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  padding: 20px;
+  padding: 30px;
   transition: all 180ms ease;
   width: 100%;
   background-color: #fff;
@@ -16,6 +18,51 @@
   border-radius: 4.2px;
   box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.15);
       transform: scale(1.04);
+}
+
+.border-left-red {
+  border-left: 7px solid $red;
+}
+
+.border-right-red {
+  border-right: 7px solid $red;
+}
+
+.border-top-red {
+  border-top: 7px solid $red;
+}
+
+.card-active {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 30px;
+  transition: all 180ms ease;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4.2px;
+  box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.15);
+      transform: scale(1.04);
+}
+
+.card-neutral {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 30px;
+  transition: all 180ms ease;
+  width: 100%;
+  background-color: #fff;
 }
 
 .product-img {

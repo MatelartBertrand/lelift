@@ -1,33 +1,28 @@
 // Specific CSS for your home-page
-.section-title-home {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-    color: black;
-    letter-spacing: -2px;
-    border-bottom: 1px solid #E0E0E0;
-    height: 7px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 2em 40px 1em 40px;
-    z-index: 1;
-}
 
-.section-title-home-content {
-  background-color: none;
-    position: relative;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-.testimonials-wrapper {
+.wrapper-bg-white {
   background-color: white;
 }
+
+.banner {
+  background-size: cover !important;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-size:contain;
+  background-position:right;
+}
+
+.students-index {
+  background-size: cover !important;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-size:contain;
+  background-position:center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, #fff), color-stop(50%, rgba(255,255,255,0.4)), color-stop(90%, #fff)),url(happy-lift.png);
+  background-image: linear-gradient(#fff 3%, rgba(255,255,255,0.4) 50%, #fff 90%),url(happy-lift.png);
+}
+
