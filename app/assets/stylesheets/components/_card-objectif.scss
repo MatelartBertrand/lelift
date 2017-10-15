@@ -1,0 +1,73 @@
+.card-objectif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 155px;
+  border-radius: 2px;
+  background-color: white;
+  -webkit-box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.1);
+  box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.1);
+  border-right: 7px solid #f4f4f4;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out
+}
+
+.card-objectif:hover {
+  border-right: 7px solid $red;
+  height: 170px;
+  transform: scale(1.02);
+
+}
+
+.card-objectif-item {
+  display: flex;
+  width: 33.33333%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.8;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-objectif-content {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 20px;
+  width: 66.66666%;
+  position: relative;
+  height: 100%;
+}
+
+.card-objectif-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-transform: capitalize;
+  padding: 5px 10px 5px;
+  margin-right: 10px;
+  background-color: $red;
+  border-radius: 2px;
+  color: white;
+  font-size: 0.7em;
+}
+
+.card-objectif-description {
+  position: absolute;
+}
+
+.card-objectif-description h4 {
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+

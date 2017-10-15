@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    color: black;
+    color: $dark-gray;
     letter-spacing: -2px;
     border-bottom: 1px solid #E0E0E0;
     height: 7px;
@@ -21,7 +21,6 @@
 }
 
 .section-title-home-content {
-  background-color: none;
     position: relative;
     padding-right: 30px;
     padding-left: 30px;
